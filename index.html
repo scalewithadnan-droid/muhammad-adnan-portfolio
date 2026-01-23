@@ -83,6 +83,9 @@ footer{
 </style>
 </head>
 
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+
 <body>
 
 <div class="toggle" onclick="toggleTheme()">🌙 / ☀️</div>
@@ -95,10 +98,11 @@ footer{
   </p>
 
  <a class="button"
-   href="https://calendly.com/muhammadadnan/strategy-call"
-   target="_blank">
+   href="#"
+   onclick="Calendly.initPopupWidget({url: 'https://calendly.com/scalewithadnan/new-meeting'}); return false;">
    Book a Free Strategy Call
 </a>
+
 
 </section>
 
@@ -146,4 +150,5 @@ function toggleTheme(){
 
 </body>
 </html>
+
 
