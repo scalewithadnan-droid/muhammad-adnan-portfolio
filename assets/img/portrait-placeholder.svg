@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img">
+<defs>
+  <pattern id="g" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M80 0H0V80" fill="none" stroke="#252B35" stroke-opacity=".55"/></pattern>
+  <radialGradient id="glow" cx="70%" cy="30%" r="60%"><stop offset="0" stop-color="#D9FF43" stop-opacity=".16"/><stop offset="1" stop-color="#D9FF43" stop-opacity="0"/></radialGradient>
+  <radialGradient id="fade" cx="50%" cy="50%" r="70%"><stop offset=".4" stop-color="#fff"/><stop offset="1" stop-color="#000"/></radialGradient>
+  <mask id="m"><rect width="800" height="1000" fill="url(#fade)"/></mask>
+  <linearGradient id="phone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B212B"/><stop offset="1" stop-color="#12161D"/></linearGradient>
+  <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9FF43" stop-opacity=".35"/><stop offset="1" stop-color="#D9FF43" stop-opacity="0"/></linearGradient>
+  
+</defs>
+<rect width="800" height="1000" fill="#090B0F"/>
+<rect width="800" height="1000" fill="url(#g)" mask="url(#m)"/>
+<rect width="800" height="1000" fill="url(#glow)"/>
+<circle cx="400" cy="420" r="210" fill="none" stroke="#252B35" stroke-width="2"/><circle cx="400" cy="420" r="150" fill="none" stroke="#252B35" stroke-dasharray="3 9"/><text x="400" y="470" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" fill="#D9FF43" text-anchor="middle" letter-spacing="-8" opacity="1">AA</text><path d="M200 760 C 300 700, 500 700, 600 760" fill="none" stroke="#252B35" stroke-width="2"/><text x="400" y="880" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#F4F5F6" text-anchor="middle" letter-spacing="6" opacity="1">ADNAN AFZAL</text><text x="400" y="916" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500" fill="#929BA8" text-anchor="middle" letter-spacing="4" opacity="1">MOBILE GROWTH &amp; PUBLISHING</text></svg>
