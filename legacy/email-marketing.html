@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Muhammad Adnan | Email Marketing & Klaviyo Expert for Shopify</title>
+<meta name="description" content="Muhammad Adnan helps US & EU Shopify brands generate predictable revenue through Email Marketing & Klaviyo." />
+
+<style>
+:root {
+  --bg:#0b0f19;
+  --card:#11162a;
+  --text:#e5e7eb;
+  --muted:#9ca3af;
+  --accent:#4f7cff;
+}
+
+[data-theme="light"] {
+  --bg:#f9fafb;
+  --card:#ffffff;
+  --text:#111827;
+  --muted:#6b7280;
+  --accent:#2563eb;
+}
+
+*{box-sizing:border-box;font-family:system-ui,-apple-system;}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:80px 20px;
+}
+
+h1{font-size:48px;}
+h2{font-size:36px;}
+p{color:var(--muted);}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:24px;
+}
+
+.card{
+  background:var(--card);
+  padding:30px;
+  border-radius:16px;
+  border:1px solid rgba(255,255,255,0.05);
+  cursor:pointer;
+  transition:transform .2s ease;
+}
+
+.card:hover{
+  transform:translateY(-4px);
+}
+
+a.button{
+  display:inline-block;
+  background:var(--accent);
+  color:#fff;
+  padding:14px 32px;
+  border-radius:10px;
+  font-weight:600;
+  margin-top:20px;
+}
+
+.toggle{
+  position:fixed;
+  top:20px;
+  right:20px;
+  cursor:pointer;
+}
+
+/* MODAL */
+.modal{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.7);
+  z-index:1000;
+}
+
+.modal-content{
+  background:var(--card);
+  max-width:720px;
+  margin:5% auto;
+  padding:30px;
+  border-radius:16px;
+  position:relative;
+}
+
+.close{
+  position:absolute;
+  top:15px;
+  right:20px;
+  font-size:24px;
+  cursor:pointer;
+}
+
+.case{display:none;}
+
+footer{
+  text-align:center;
+  padding:60px 20px;
+  color:var(--muted);
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="toggle" onclick="toggleTheme()">🌙 / ☀️</div>
+
+<section class="container">
+  <h1>Muhammad Adnan</h1>
+  <p>
+    Email Marketing, <strong>Klaviyo</strong> & <strong>Shopify Expert</strong><br>
+    Helping US & EU brands generate <strong>25–40% of revenue</strong> through email.
+  </p>
+
+  <a class="button"
+     href="#"
+     onclick="Calendly.initPopupWidget({url:'https://calendly.com/scalewithadnan/new-meeting'});return false;">
+     Book a Free Strategy Call
+  </a>
+</section>
+
+<section class="container">
+  <h2>Client Case Studies</h2>
+  <div class="grid">
+    <div class="card" onclick="openCase('cs1')">DTC Apparel (USA): Email revenue 7% → 29%</div>
+    <div class="card" onclick="openCase('cs2')">Beauty Brand (EU): Open rates 19% → 37%</div>
+    <div class="card" onclick="openCase('cs3')">Home & Lifestyle (USA): Repeat sales growth</div>
+    <div class="card" onclick="openCase('cs4')">Supplements (USA): Cart recovery +15%</div>
+    <div class="card" onclick="openCase('cs5')">Digital Products (EU): Engagement & CTR growth</div>
+  </div>
+</section>
+
+<section class="container">
+  <h2>Portfolio Highlights</h2>
+  <div class="grid">
+    <div class="card" onclick="openCase('p1')">Klaviyo Account Setup</div>
+    <div class="card" onclick="openCase('p2')">Email Flow Optimization</div>
+    <div class="card" onclick="openCase('p3')">Campaign Management</div>
+    <div class="card" onclick="openCase('p4')">Deliverability & List Cleanup</div>
+    <div class="card" onclick="openCase('p5')">Advanced Segmentation</div>
+  </div>
+</section>
+
+<section class="container">
+  <h2>Let’s Work Together</h2>
+  <p>If your store has traffic but email isn’t driving revenue, I can help.</p>
+
+  <a class="button"
+     href="#"
+     onclick="Calendly.initPopupWidget({url:'https://calendly.com/scalewithadnan/new-meeting'});return false;">
+     Book a Call
+  </a>
+</section>
+
+<footer>
+© 2026 Muhammad Adnan — Email Marketing & Klaviyo Expert
+</footer>
+
+<!-- MODAL CONTENT -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeCase()">×</span>
+
+    <!-- CASE STUDIES -->
+    <div id="cs1" class="case">
+      <h2>DTC Apparel Brand — USA</h2>
+      <p><strong>Challenge:</strong> Low email contribution (7–8%).</p>
+      <p><strong>Solution:</strong> Klaviyo audit, abandoned checkout, post-purchase flows.</p>
+      <p><strong>Result:</strong> Email revenue increased to 29% in 90 days.</p>
+    </div>
+
+    <div id="cs2" class="case">
+      <h2>Beauty Brand — EU</h2>
+      <p><strong>Challenge:</strong> Poor open rates & targeting.</p>
+      <p><strong>Solution:</strong> GDPR-safe segmentation & A/B testing.</p>
+      <p><strong>Result:</strong> Open rates improved from 19% → 37%.</p>
+    </div>
+
+    <div id="cs3" class="case">
+      <h2>Home & Lifestyle — USA</h2>
+      <p><strong>Solution:</strong> Full lifecycle email strategy.</p>
+      <p><strong>Result:</strong> Higher repeat purchases & LTV.</p>
+    </div>
+
+    <div id="cs4" class="case">
+      <h2>Supplements Brand — USA</h2>
+      <p><strong>Focus:</strong> Abandoned cart & checkout optimization.</p>
+      <p><strong>Result:</strong> +15% cart recovery rate.</p>
+    </div>
+
+    <div id="cs5" class="case">
+      <h2>Digital Products — EU</h2>
+      <p><strong>Focus:</strong> Engagement & list quality.</p>
+      <p><strong>Result:</strong> Higher CTR and improved engagement.</p>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <div id="p1" class="case">
+      <h2>Klaviyo Account Setup</h2>
+      <p>Shopify integration, metrics, core flows & tracking.</p>
+    </div>
+
+    <div id="p2" class="case">
+      <h2>Email Flow Optimization</h2>
+      <p>Abandoned cart, browse, post-purchase & win-back flows.</p>
+    </div>
+
+    <div id="p3" class="case">
+      <h2>Campaign Management</h2>
+      <p>Monthly planning, execution & performance tracking.</p>
+    </div>
+
+    <div id="p4" class="case">
+      <h2>Deliverability & List Cleanup</h2>
+      <p>Improved inbox placement & sender reputation.</p>
+    </div>
+
+    <div id="p5" class="case">
+      <h2>Advanced Segmentation</h2>
+      <p>Behavior-based, VIP & repeat buyer targeting.</p>
+    </div>
+  </div>
+</div>
+
+<!-- SCRIPTS -->
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+<script>
+function toggleTheme(){
+  document.body.dataset.theme =
+    document.body.dataset.theme === "light" ? "" : "light";
+}
+
+function openCase(id){
+  document.getElementById("modal").style.display="block";
+  document.querySelectorAll(".case").forEach(c=>c.style.display="none");
+  document.getElementById(id).style.display="block";
+}
+
+function closeCase(){
+  document.getElementById("modal").style.display="none";
+}
+</script>
+
+</body>
+</html>

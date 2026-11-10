@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /legacy/
+Disallow: /tools/
+
+Sitemap: https://growthbyadnan.site/sitemap.xml
